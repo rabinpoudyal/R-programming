@@ -7,3 +7,15 @@
 #  sum <- sum + number 
 #}
 #result <- sum/N
+
+N <- 100
+sum <- 0
+for(i in rnorm(N)){
+  if(i>-1 & i<1){
+    sum <- sum + i 
+  }
+}
+
+result <- sum/N
+result
+
